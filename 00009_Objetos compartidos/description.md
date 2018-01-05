@@ -8,7 +8,7 @@ module Melisa
     @novio = un_novio
   end
   
-  def self.novio_es_flaquito_como_le_gusta()
+  def self.novio_es_flaquito_como_le_gusta?()
     novio.peso < 80
   end
 end
