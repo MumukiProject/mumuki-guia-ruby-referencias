@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: "*"
+  inspection: Declares:abuela_clotilde
+- binding: abuela_clotilde
+  inspection: Calls:nieto
