@@ -1,0 +1,3 @@
+objetos_equivalentes = [ 
+  #completar acá....
+]
