@@ -3,17 +3,17 @@ it "objetos_equivalentes es una lista" do
 end
 
 it "abuela_clotilde no debe inicializar por defecto a su nieto" do
-  expect({AbuelaClotilde.alimentar_nieto}).to raise_error
+  expect({abuela_clotilde.alimentar_nieto}).to raise_error
 end
 
 it "Cuando abuela_clotilde alimenta a su nieto lo engorda 3kg" do
-  AbuelaClotilde.nieto Fito
-  AbuelaClotilde.alimentar_nieto
-  expect(Fito.peso).to eq 73
+  abuela_clotilde.nieto fito
+  abuela_clotilde.alimentar_nieto
+  expect(fito.peso).to eq 73
 end
 
 it "La abuela alimenta a su nieto dos veces" do
-  AbuelaClotilde.nieto Fito
-  AbuelaClotilde.alimentar_nieto
-  expect(Fito.cantidad_de_llamadas).to eq 2
+  abuela_clotilde.nieto fito
+  abuela_clotilde.alimentar_nieto
+  expect(fito.cantidad_de_llamadas).to eq 2
 end

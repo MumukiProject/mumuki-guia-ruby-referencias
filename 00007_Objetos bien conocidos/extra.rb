@@ -1,4 +1,4 @@
-module Fito
+module fito
   @peso = 70 
   @cantidadDeLlamadas = 0
   
