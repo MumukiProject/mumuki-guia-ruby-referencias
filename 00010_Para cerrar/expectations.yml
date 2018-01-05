@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: "*"
+  inspection: Declares:PianoFamiliar
+- binding: "*"
+  inspection: Declares:Jazmin
+- binding: "*"
+  inspection: Declares:Lucio
