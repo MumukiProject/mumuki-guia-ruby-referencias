@@ -2,9 +2,9 @@ it "objetos_equivalentes es una lista" do
   expect(objetos_equivalentes.is_a? Array).to be true
 end
 
-#it "AbuelaClotilde no debe inicializar por defecto a su nieto" do
-#  expect { AbuelaClotilde.alimentar_nieto }.to raise_error
-#end
+it "AbuelaClotilde no debe inicializar por defecto a su nieto" do
+  expect { AbuelaClotilde.alimentar_nieto }.to raise_error
+end
 
 it "Cuando AbuelaClotilde alimenta a su nieto lo engorda 3kg" do
   AbuelaClotilde.nieto Fito
