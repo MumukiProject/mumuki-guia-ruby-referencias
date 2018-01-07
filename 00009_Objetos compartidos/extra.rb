@@ -28,10 +28,10 @@ end
 
 module AbuelaClotilde
   @nieto
-  @vecesAlimento = 0
+  @veces_alimentado = 0
   
-  def self.alimentarNieto
-    vecesAlimento += 1
+  def self.alimentar_nieto
+    veces_alimentado += 1
     nieto.comer(2000)
     nieto.comer(1000)
   end
@@ -44,7 +44,7 @@ module AbuelaClotilde
     @nieto
   end
   
-  def self.vecesAlimentado
-    @vecesAlimento
+  def self.veces_alimentado
+    @veces_alimentado
   end
 end

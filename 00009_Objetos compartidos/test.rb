@@ -15,5 +15,5 @@ it "Melisa es feliz porque Fito es feliz" do
 end
 
 it "AbuelaClotilde alimentó 3 veces a Fito" do
-  expect(AbuelaClotilde.vecesAlimentado).to eq 3
+  expect(AbuelaClotilde.veces_alimentado).to eq 3
 end
