@@ -1,6 +1,6 @@
 ---
 expectations:
 - binding: "*"
-  inspection: Declares:AbuelaClotilde
+  inspection: DeclaresObject:AbuelaClotilde
 - binding: AbuelaClotilde
   inspection: Calls:nieto
