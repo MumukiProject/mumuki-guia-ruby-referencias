@@ -1,24 +1,24 @@
 module Fito
-  @peso = 70 
+  @felicidad = 100
   
   def self.comer(calorias)
-     @peso += calorias * 0.5
+     @felicidad += calorias * 0.5
   end
   
-  def self.peso
-    peso
+  def self.felicidad
+    felicidad
   end
 end
 
 module Melisa
   @novio
    
-  def self.novio(un_novio)
+  def self.novio=(un_novio)
     @novio = un_novio
   end
   
-  def self.novio_es_flaquito_como_le_gusta()
-    novio.peso < 80
+  def self.es_feliz_como_su_novio?()
+    novio.felicidad > 105
   end
 end
 
@@ -32,7 +32,7 @@ module AbuelaClotilde
     nieto.comer(1000)
   end
   
-  def self.nieto(unNieto)
+  def self.nieto=(unNieto)
     @nieto = un_nieto
   end
   

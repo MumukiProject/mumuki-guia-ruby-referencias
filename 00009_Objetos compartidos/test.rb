@@ -7,11 +7,11 @@ it "El novio de Melisa es Fito" do
 end
 
 it "Fito engordó" do
-  expect(Fito.peso > 70).to be true
+  expect(Fito.felicidad > 100).to be true
 end
 
-it "Fito ya no es flaquito como le gusta a Melisa" do
-  expect(Melisa.novio_es_flaquito_como_le_gusta?).to be false
+it "Melisa es feliz porque Fito es feliz" do
+  expect(Melisa.es_feliz_como_su_novio?).to be true
 end
 
 it "AbuelaClotilde alimentó 3 veces a Fito" do
