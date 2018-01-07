@@ -16,7 +16,7 @@ module Fito
   end
   
   def self.volve_a_tu_felicidad!
-    @felicidad = 70
+    @felicidad = 100
   end
   
 end
