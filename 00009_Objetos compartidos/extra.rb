@@ -2,11 +2,11 @@ module Fito
   @felicidad = 100
   
   def self.comer(calorias)
-     @felicidad += calorias * 0.5
+    @felicidad += calorias * 0.5
   end
   
   def self.felicidad
-    felicidad
+    @felicidad
   end
 end
 
