@@ -8,7 +8,7 @@ Antes de terminar nos topamos con un último problema: Jazmín toca el piano fam
 > 
 > ```ruby
 > #Configura al piano de Jazmin
-> Jazmin.piano(PianoFamiliar) 
+> Jazmin.piano=(PianoFamiliar) 
 > Jazmin.tocar
 > #Pregunta si está afinado
 > PianoFamiliar.esta_afinado?
