@@ -32,7 +32,7 @@ module AbuelaClotilde
     nieto.comer(1000)
   end
   
-  def self.nieto=(unNieto)
+  def self.nieto=(un_nieto)
     @nieto = un_nieto
   end
   
