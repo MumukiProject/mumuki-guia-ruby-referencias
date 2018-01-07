@@ -1,6 +1,6 @@
 ---
 expectations:
 - binding: "*"
-  inspection: Implements:AbuelaClotilde
+  inspection: Uses:AbuelaClotilde
 - binding: AbuelaClotilde
   inspection: Calls:nieto
