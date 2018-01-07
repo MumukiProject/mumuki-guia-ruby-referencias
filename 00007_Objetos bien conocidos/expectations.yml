@@ -1,6 +1,6 @@
 ---
 expectations:
 - binding: "*"
-  inspection: Declares:abuela_clotilde
-- binding: abuela_clotilde
+  inspection: Declares:AbuelaClotilde
+- binding: AbuelaClotilde
   inspection: Calls:nieto
