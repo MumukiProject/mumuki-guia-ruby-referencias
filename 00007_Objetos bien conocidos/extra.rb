@@ -1,5 +1,5 @@
 module Fito
-  @felicidad = 70 
+  @felicidad = 100 
   @cantidad_de_llamadas = 0
   
   def self.comer(calorias)
