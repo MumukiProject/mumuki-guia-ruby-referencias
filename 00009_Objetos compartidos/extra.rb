@@ -22,7 +22,7 @@ module Melisa
   end
   
   def self.es_feliz_como_su_novio?()
-    novio.felicidad > 105
+    @novio.felicidad > 105
   end
 end
 
@@ -32,8 +32,8 @@ module AbuelaClotilde
   
   def self.alimentar_nieto
     veces_alimentado += 1
-    nieto.comer(2000)
-    nieto.comer(1000)
+    @nieto.comer(2000)
+    @nieto.comer(1000)
   end
   
   def self.nieto=(un_nieto)
