@@ -1,2 +1,2 @@
-#Ya declaramos a fito por vos.
-#¡Desarrollá a la abuela acá!
+#Ya declaramos a Fito por vos.
+#¡Desarrollá a la AbuelaClotilde acá!
