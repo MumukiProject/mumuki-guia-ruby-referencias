@@ -6,11 +6,11 @@ it "AbuelaClotilde alimenta a su nieto dos veces" do
   AbuelaClotilde.nieto Fito
   AbuelaClotilde.alimentar_nieto
   expect(Fito.cantidad_de_llamadas).to eq 2
-  Fito.volve_a_tu_peso!
+  Fito.volve_a_tu_felicidad!
 end
 
-it "Cuando AbuelaClotilde alimenta a su nieto lo engorda 3kg" do
+it "Cuando AbuelaClotilde alimenta a su nieto su felicidad aumenta 3 puntos" do
   AbuelaClotilde.nieto Fito
   AbuelaClotilde.alimentar_nieto
-  expect(Fito.peso).to eq 73
+  expect(Fito.felicidad).to eq 103
 end

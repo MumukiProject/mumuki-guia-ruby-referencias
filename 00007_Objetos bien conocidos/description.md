@@ -1,20 +1,20 @@
-¿Y qué hay de los objetos que veníamos declarando hasta ahora? Por ejemplo: 
+¿Y qué hay de los objetos que veníamos declarando hasta ahora? Por ejemplo `Fito`, a le aumenta la felicidad cuando come: 
 
 ```ruby
 module Fito
-  @peso = 70
+  @felicidad = 10
   
   def self.comer(calorias)
      @peso += calorias * 0.001
   end
   
-  def self.peso
-    @peso
+  def self.felicidad
+    @felicidad
   end
 end
 ```
 
-A objetos como `Fito` se los conocen como _objetos bien conocidos_: cuando los declaramos no sólo describimos su comportamiento (`comer(calorias)` y `peso`) y estado (`@peso`), sino que además les damos un nombre o etiqueta a través de la cual podemos conocerlos. ¿Te suena?
+A objetos como `Fito` se los conocen como _objetos bien conocidos_: cuando los declaramos no sólo describimos su comportamiento (`comer(calorias)` y `felicidad`) y estado (`@felicidad`), sino que además les damos un nombre o etiqueta a través de la cual podemos conocerlos. ¿Te suena?
 
 ¡Adiviná! Esas etiquetas también son referencias :tada:. Y son globales, es decir que cualquier objeto o programa puede utilizarla. 
 
