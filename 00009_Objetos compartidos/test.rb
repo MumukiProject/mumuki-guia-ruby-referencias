@@ -6,7 +6,7 @@ it "El novio de Melisa es Fito" do
   expect(Melisa.novio).to be Fito
 end
 
-it "Fito engordó" do
+it "Fito aumentó su felicidad" do
   expect(Fito.felicidad > 100).to be true
 end
 
