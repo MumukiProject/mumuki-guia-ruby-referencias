@@ -14,4 +14,9 @@ module Fito
   def self.cantidad_de_llamadas
     @cantidad_de_llamadas
   end
+  
+  def self.volve_a_tu_peso!
+    @peso = 70
+  end
+  
 end
