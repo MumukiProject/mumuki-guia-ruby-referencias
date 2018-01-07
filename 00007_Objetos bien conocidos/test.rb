@@ -3,7 +3,7 @@ it "objetos_equivalentes es una lista" do
 end
 
 it "AbuelaClotilde no debe inicializar por defecto a su nieto" do
-  expect({AbuelaClotilde.alimentar_nieto}).to raise_error
+  expect( proc {AbuelaClotilde.alimentar_nieto} ).to raise_error
 end
 
 it "Cuando AbuelaClotilde alimenta a su nieto lo engorda 3kg" do
