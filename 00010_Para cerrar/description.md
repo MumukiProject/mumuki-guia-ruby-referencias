@@ -7,7 +7,7 @@ Antes de terminar nos topamos con un último problema: Jazmín toca el piano fam
 > Desarrollá los objetos necesarios para que podamos hacer lo siguiente: 
 > 
 > ```ruby
-> #Configura al piano de jazmin
+> #Configura al piano de Jazmin
 > Jazmin.piano(PianoFamiliar) 
 > Jazmin.tocar
 > #Pregunta si está afinado
