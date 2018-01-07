@@ -2,7 +2,7 @@
 
 ```ruby
 module Fito
-  @felicidad = 10
+  @felicidad = 100
   
   def self.comer(calorias)
      @peso += calorias * 0.001
