@@ -12,6 +12,6 @@ module Fito
   end
   
   def self.cantidadDeLlamadas
-    cantidadDeLlamadas
+    @cantidadDeLlamadas
   end
 end
