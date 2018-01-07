@@ -1,4 +1,4 @@
 ---
 expectations:
 - binding: AbuelaClotilde
-  inspection: Calls:alimentar_nieto
+  inspection: Declares:alimentar_nieto
