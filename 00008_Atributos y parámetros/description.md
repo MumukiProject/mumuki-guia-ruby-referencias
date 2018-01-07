@@ -6,7 +6,7 @@ Por ejemplo, si la golondrina `Pepita` conoce siempre su ciudad actual...
 module Pepita
   @ciudad
    
-  def self.ciudad(una_ciudad)
+  def self.ciudad=(una_ciudad)
       @ciudad = una_ciudad
   end
 end
