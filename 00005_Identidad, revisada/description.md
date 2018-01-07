@@ -1,4 +1,4 @@
-Recordemos que el `equal?` era un mensaje que nos decía si dos objetos eran el mismo. Veamos qué pasó: 
+Recordemos que el `equal?` era un mensaje que nos decía si dos objetos son el mismo. Veamos qué pasó: 
 
 ```ruby
 otro_saludo = "buen día"
@@ -17,11 +17,11 @@ En ambos casos el resultado fue `false`, dado que aquellos strings son objetos *
 ```ruby
 ム otro_saludo.equal? otro_saludo
 => true
-despedida.equal? otro_saludo
+ム despedida.equal? otro_saludo
 => true
 ```
 
-¿Por qué? ¡Simple! Ambas referencias apuntan al mismo objeto. La moraleja es que declarar una variable significa agregar una nueva referencia al objeto existente, en lugar de copiarlo:
+¿Por qué? ¡Simple! Ambas referencias, `otro_saludo` y `despedida`, apuntan al mismo objeto. La moraleja es que declarar una variable significa agregar una nueva referencia al objeto existente, en lugar de copiarlo:
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-referencias/master/images/multiplesReferencias_1515164745014.png" alt="Múltiples referencias" width="300" height="auto">
 
