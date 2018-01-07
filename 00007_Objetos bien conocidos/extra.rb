@@ -1,17 +1,17 @@
 module Fito
   @peso = 70 
-  @cantidadDeLlamadas = 0
+  @cantidad_de_llamadas = 0
   
   def self.comer(calorias)
      @peso += calorias * 0.001
-     @cantidadDeLlamadas += 1
+     @cantidad_de_llamadas += 1
   end
   
   def self.peso
     @peso
   end
   
-  def self.cantidadDeLlamadas
-    @cantidadDeLlamadas
+  def self.cantidad_de_llamadas
+    @cantidad_de_llamadas
   end
 end
