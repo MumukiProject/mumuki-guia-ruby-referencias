@@ -17,6 +17,10 @@ module Melisa
     @novio = un_novio
   end
   
+  def self.novio
+    @novio
+  end
+  
   def self.es_feliz_como_su_novio?()
     novio.felicidad > 105
   end
