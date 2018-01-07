@@ -2,15 +2,20 @@ it "El PianoFamiliar está inicialmente afinado" do
   expect(PianoFamiliar.esta_afinado?).to be true
 end
 
+it "Lucio sabe afinar el piano" do
+  Lucio.afinar(PianoFamiliar, 3)
+  expect(PianoFamiliar.esta_afinado?).to be true
+end
+
+it "Inicialmente Jazmín no tiene un piano" do
+  expect(Jazmin.tocar).to raise_error
+end
+
+
 it "Después de tocar el piano 21 veces, ya no está afinado" do
   Jazmin.piano=(PianoFamiliar)  
   21.times { jazmin.tocar }
   expect(PianoFamiliar.esta_afinado?).to be false
-end
-
-it "Lucio sabe afinar el piano" do
-  Lucio.afinar(PianoFamiliar, 3)
-  expect(PianoFamiliar.esta_afinado?).to be true
 end
 
 it "Después de tocar el piano 21 veces, y afinarlo durante una hora, está afinado" do
