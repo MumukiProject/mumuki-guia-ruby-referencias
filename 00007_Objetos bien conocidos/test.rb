@@ -1,6 +1,5 @@
 it "AbuelaClotilde no debe inicializar por defecto a su nieto" do
   expect { AbuelaClotilde.alimentar_nieto }.to raise_error
-  Fito.volve_a_tu_peso!
 end
 
 it "AbuelaClotilde alimenta a su nieto dos veces" do
