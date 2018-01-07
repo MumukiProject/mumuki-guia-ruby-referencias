@@ -1,6 +1,4 @@
 ---
 expectations:
-- binding: "*"
-  inspection: Uses:AbuelaClotilde
 - binding: AbuelaClotilde
   inspection: Calls:nieto
