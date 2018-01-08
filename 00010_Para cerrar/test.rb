@@ -17,10 +17,10 @@ it "Después de tocar el piano 23 veces, ya no está afinado" do
   expect(PianoFamiliar.esta_afinado?).to be false
 end
 
-it "Después de tocar el piano 23 veces, y afinarlo durante nueve horas, está afinado" do
+it "Después de tocar el piano 23 veces, y afinarlo durante diez horas, está afinado" do
   Jazmin.piano=(PianoFamiliar)  
   23.times { Jazmin.tocar }
-  Lucio.afinar(PianoFamiliar, 9)
+  Lucio.afinar(PianoFamiliar, 10)
   expect(PianoFamiliar.esta_afinado?).to be true
 end
 
