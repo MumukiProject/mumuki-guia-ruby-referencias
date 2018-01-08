@@ -8,9 +8,8 @@ it "Lucio sabe afinar el piano" do
 end
 
 it "Inicialmente Jazmín no tiene un piano" do
-  expect(Jazmin.tocar).to raise_error
+  expect { Jazmin.tocar }.to raise_error
 end
-
 
 it "Después de tocar el piano 21 veces, ya no está afinado" do
   Jazmin.piano=(PianoFamiliar)  
