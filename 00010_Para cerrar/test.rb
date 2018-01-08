@@ -11,15 +11,15 @@ it "Inicialmente Jazmín no tiene un piano" do
   expect { Jazmin.tocar }.to raise_error
 end
 
-it "Después de tocar el piano 21 veces, ya no está afinado" do
+it "Después de tocar el piano 23 veces, ya no está afinado" do
   Jazmin.piano=(PianoFamiliar)  
-  21.times { Jazmin.tocar }
+  23.times { Jazmin.tocar }
   expect(PianoFamiliar.esta_afinado?).to be false
 end
 
-it "Después de tocar el piano 21 veces, y afinarlo durante una horas, está afinado" do
+it "Después de tocar el piano 23 veces, y afinarlo durante una hora, está afinado" do
   Jazmin.piano=(PianoFamiliar)  
-  21.times { Jazmin.tocar }
+  23.times { Jazmin.tocar }
   Lucio.afinar(PianoFamiliar, 1)
   expect(PianoFamiliar.esta_afinado?).to be true
 end
