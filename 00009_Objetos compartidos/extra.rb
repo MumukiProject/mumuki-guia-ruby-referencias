@@ -1,4 +1,4 @@
-module Fito
+module Melisa
   @felicidad = 100
   
   def self.comer(calorias)
@@ -10,41 +10,41 @@ module Fito
   end
 end
 
-module Melisa
-  @novio
+module Fito
+  @novia
    
-  def self.novio=(un_novio)
-    @novio = un_novio
+  def self.novia=(un_novia)
+    @novia = un_novia
   end
   
-  def self.novio
-    @novio
+  def self.novia
+    @novia
   end
   
-  def self.es_feliz_como_su_novio?
-    @novio.felicidad > 105
+  def self.es_feliz_como_su_novia?
+    @novia.felicidad > 105
   end
 end
 
-module AbuelaClotilde
-  @nieto
+module AbueloGervasio
+  @nieta
   @veces_alimentado = 0
   
-  def self.alimentar_nieto
+  def self.alimentar_nieta
     @veces_alimentado += 1
     @nieto.comer(2000)
     @nieto.comer(1000)
   end
   
-  def self.nieto=(un_nieto)
-    @nieto = un_nieto
+  def self.nieta=(un_nieta)
+    @nieta = un_nieta
   end
   
-  def self.nieto
-    @nieto
+  def self.nieta
+    @nieta
   end
   
-  def self.veces_alimentado
-    @veces_alimentado
+  def self.veces_alimentada
+    @veces_alimentada
   end
 end
