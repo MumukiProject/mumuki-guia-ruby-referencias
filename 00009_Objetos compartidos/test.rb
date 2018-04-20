@@ -1,9 +1,9 @@
 it "La nieta de AbueloGervasio es Melisa" do
-  expect(AbueloGervasio.nieto).to be Melisa
+  expect(AbueloGervasio.nieta).to be Melisa
 end
 
 it "La novia de Fito es Melisa" do
-  expect(Fito.novio).to be Melisa
+  expect(Fito.novia).to be Melisa
 end
 
 it "Melisa aumentó su felicidad" do
@@ -15,5 +15,5 @@ it "Fito es feliz porque Melisa es feliz" do
 end
 
 it "AbueloGervasio alimentó 3 veces a Melisa" do
-  expect(AbueloGervasio.veces_alimentado).to eq 3
+  expect(AbueloGervasio.veces_alimentada).to eq 3
 end
