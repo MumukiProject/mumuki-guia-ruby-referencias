@@ -32,8 +32,8 @@ module AbueloGervasio
   
   def self.alimentar_nieta
     @veces_alimentado += 1
-    @nieto.comer(2000)
-    @nieto.comer(1000)
+    @nieta.comer(2000)
+    @nieta.comer(1000)
   end
   
   def self.nieta=(un_nieta)
