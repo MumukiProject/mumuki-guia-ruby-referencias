@@ -1,2 +1,2 @@
-#Melisa, Fito y AbuelaClotilde ya están declarados.
+#Melisa, Fito y AbueloGervasio ya están declarados.
 #Inicializalos y enviales mensajes acá...
