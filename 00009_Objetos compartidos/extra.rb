@@ -28,7 +28,7 @@ end
 
 module AbueloGervasio
   @nieta
-  @veces_alimentado = 0
+  @veces_alimentada = 0
   
   def self.alimentar_nieta
     @veces_alimentado += 1
