@@ -24,7 +24,12 @@ saludo.upcase.size
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-referencias/master/images/referenciaImplicita_1515158174087.png" alt="Referencia Implícita" width="350" height="auto">
 
-Por eso, si luego te interesa hacer más cosas con ese objeto, tenés que crear una referencia explícita al mismo :wink:
+Por eso, si luego te interesa hacer más cosas con ese objeto, tenés que crear una referencia explícita al mismo :wink:. Las referencias explícitas son las que vimos hasta ahora. Por ejemplo:
+
+``` ruby
+saludoEnChino = "ni hao"
+```
+
 
 > Probá las siguientes consultas en la consola y pensá en dónde hay referencias implícitas:
 > 
