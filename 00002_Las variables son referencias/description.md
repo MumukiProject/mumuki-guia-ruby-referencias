@@ -6,7 +6,7 @@ Sucede que en realidad las cosas son un poco más complejas: no conocemos a los 
 saludo = "hola"
 ```
 
-...lo que estamos haciendo es _crear una referencia_ que _apunta_ al objeto `"hola"`, que representamos mediante una flechita:
+...lo que estamos haciendo es _crear una referencia_ `saludo` que _apunta_ al objeto `"hola"`, que representamos mediante una flechita:
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-referencias/master/images/unaReferencia_1515124264589.png" alt="Una Referencia" width="250" height="auto">
 
