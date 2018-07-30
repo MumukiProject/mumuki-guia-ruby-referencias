@@ -1,4 +1,4 @@
-¿Y qué hay de los objetos que veníamos declarando hasta ahora? Por ejemplo `Fito`, a le aumenta la felicidad cuando come: 
+¿Y qué hay de los objetos que veníamos declarando hasta ahora? Por ejemplo a `Fito`, le aumenta la felicidad cuando come: 
 
 ```ruby
 module Fito
