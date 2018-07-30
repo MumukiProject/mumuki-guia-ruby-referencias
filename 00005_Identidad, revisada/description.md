@@ -12,7 +12,7 @@ despedida = otro_saludo
 => false
 ```
 
-En ambos casos el resultado fue `false`, dado que aquellos strings son objetos **distintos**, a pesar de que tengan los mismos caracteres. Sin embargo: 
+En ambos casos el resultado fue `false`, dado que aquellos strings son objetos **distintos**, a pesar de que tengan los mismos caracteres. Cada vez que escribimos un string estamos creando un nuevo objeto. Sin embargo: 
 
 ```ruby
 ム otro_saludo.equal? otro_saludo
