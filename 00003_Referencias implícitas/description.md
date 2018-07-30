@@ -34,5 +34,5 @@ saludoEnChino = "ni hao"
 > Probá las siguientes consultas en la consola y pensá en dónde hay referencias implícitas:
 > 
 > * `ム "ni hao".upcase`
-> * `ム 4.abs.sqrt`
+> * `ム 4.abs.even?`
 > * `ム (4 + 8).abs`
