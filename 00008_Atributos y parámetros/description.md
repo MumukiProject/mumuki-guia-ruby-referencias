@@ -18,4 +18,4 @@ Y en algún momento esta pasa a ser `Iruya`, el diagrama de objetos será el sig
 
 Nuevamente, acá vemos otro caso de múltiples referencias: el objeto que representa a la ciudad de [Iruya](https://es.wikipedia.org/wiki/Iruya) es globalmente conocido como `Iruya`, y también conocido por `Pepita` como `ciudad`.
 
-> Escribí un programa que inicialice la `ciudad` de `Pepita` de forma que apunte a `Iruya`. Y pensá: ¿cuántas referencias a `Iruya` hay en este programa? :thought_balloon:
+> Escribí un programa que defina la `ciudad` de `Pepita` de forma que apunte a `Iruya`. Y pensá: ¿cuántas referencias a `Iruya` hay en este programa? :thought_balloon:
