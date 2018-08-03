@@ -2,5 +2,3 @@
 expectations:
 - binding: AbuelaClotilde
   inspection: Declares:alimentar_nieto
-- binding: AbuelaClotilde
-  inspection: Declares:nieto=

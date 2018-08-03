@@ -10,4 +10,4 @@
 
 > _enviar un mensaje a_ `Fito`
 
-...porque si bien no es del todo correcto, es más breve :sweat_smile:. Lo importante es que entiendas que *siempre* estamos enviando el mensaje al objeto a través de una referencia. 
+...porque si bien no es del todo correcto, es más breve :sweat_smile:. Lo importante es que entiendas que *siempre* estamos enviando el mensaje al objeto a través de una referencia.
