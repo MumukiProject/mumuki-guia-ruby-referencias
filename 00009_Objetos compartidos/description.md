@@ -4,12 +4,12 @@
 module Fito
   @novio
    
-  def self.novia=(un_novia)
+  def self.novia=(una_novia)
     @novia = un_novia
   end
   
   def self.es_feliz_como_su_novia?
-    novia.felicidad > 105
+    @novia.felicidad > 105
   end
 end
 ```
