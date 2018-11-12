@@ -1,3 +1,7 @@
+before do
+  Lucio.afinar(PianoFamiliar, 20)
+end
+
 it "El PianoFamiliar está inicialmente afinado" do
   expect(PianoFamiliar.esta_afinado?).to be true
 end
@@ -31,11 +35,11 @@ it "Después de tocar el piano 90 veces, y afinarlo durante una hora, no está a
   expect(PianoFamiliar.esta_afinado?).to be false
 end
 
-it "Después de tocar el piano 90 veces, y afinarlo durante 20 horas, no está afinado" do
+it "Después de tocar el piano 90 veces, y afinarlo durante 20 horas, está afinado" do
   Jazmin.piano=(PianoFamiliar)  
   90.times { Jazmin.tocar }
   Lucio.afinar(PianoFamiliar, 20)
-  expect(PianoFamiliar.esta_afinado?).to be false
+  expect(PianoFamiliar.esta_afinado?).to be true
 end
 
 it "La afinación máxima es 100 aunque afine el piano durante 743 horas" do
