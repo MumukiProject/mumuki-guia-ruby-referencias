@@ -14,4 +14,4 @@ Antes de terminar nos topamos con un último problema: Jazmín toca el piano fam
 > PianoFamiliar.esta_afinado?
 > #Lo afina durante 3 horas
 > Lucio.afinar(PianoFamiliar, 3)
-```
+> ```
