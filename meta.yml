@@ -3,7 +3,6 @@ name: Referencias
 locale: es
 type: learning
 beta: false
-teacher_info: ''
 language: ruby
 id_format: "%05d"
 order:
@@ -17,3 +16,4 @@ order:
 - 8
 - 9
 - 10
+private: false

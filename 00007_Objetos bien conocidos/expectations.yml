@@ -1,4 +1,5 @@
 ---
 expectations:
-- binding: AbuelaClotilde
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: AbuelaClotilde
   inspection: Declares:alimentar_nieto
