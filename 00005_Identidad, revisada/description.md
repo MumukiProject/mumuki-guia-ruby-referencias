@@ -37,4 +37,15 @@ Lo cual da como resultado este ambiente:
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-referencias/master/images/saludos2.png" alt="Múltiples referencias" width="300" height="auto">
 
 
-> Veamos si se entiende: declará una lista `referencias_repetidas`, que esté conformada por tres referencias a un mismo objeto (¡el que quieras!)
+> Veamos si se entiende, dadas las siguientes asignaciones:
+>
+``` ruby
+persona = "Graciela"
+hija_de_hector = "Graciela"
+hermana_de_tito = persona
+hija_de_elena = "Gracielita"
+hermana_de_ana = hermana_de_tito
+mama_de_gustavo = "hermana_de_ana"
+tia_de_gonzalo = hija_de_hector
+```
+> Elegí cuáles de estas opciones referencian al mismo objeto que `persona`.
