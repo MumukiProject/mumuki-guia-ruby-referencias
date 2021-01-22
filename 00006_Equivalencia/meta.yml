@@ -1,10 +1,12 @@
 ---
 locale: es
 tags: []
-layout: input_right
-editor: code
+layout: input_bottom
+editor: free_form
 type: problem
 extra_visible: false
+language: text
+teacher_info: ''
 manual_evaluation: false
 choices: []
 name: Equivalencia

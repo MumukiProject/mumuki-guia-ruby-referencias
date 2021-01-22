@@ -13,4 +13,4 @@ Pensemos un caso concreto. ¿Hay forma de saber si dos strings representan la **
 
 El mensaje `==` nos permite comparar dos objetos por _equivalencia_; lo cual se da típicamente cuando los objetos tienen el mismo estado. Y como vemos, puede devolver `true`, aún cuando los dos objetos no sean _el mismo_. 
 
-> Veamos si se entiende: declará una variable `objetos_equivalentes`, que referencie a una lista conformada por tres referencias **distintas** que apunten a objetos equivalentes entre sí, pero no idénticos. 
+> Elegí cuál de las siguientes opciones contiene 3 referencias **distintas** que apunten a objetos equivalentes entre sí, pero no idénticos.
