@@ -1,5 +1,4 @@
-
-Recordemos que el `equal?` era un mensaje que nos decía si dos objetos son el mismo. Veamos qué pasó: 
+El mensaje `equal?` nos dice si dos objetos son el mismo. Veamos qué pasó con las pruebas del ejercicio anterior: 
 
 ```ruby
 otro_saludo = "buen día" # se crea la variable otro_saludo que referencia al objeto "buen día"
