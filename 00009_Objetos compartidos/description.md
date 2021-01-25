@@ -3,9 +3,11 @@
 ```ruby
 module Fito
   @amigo
+  
   def self.amigo=(un_amigo)
     @amigo = un_amigo
   end
+  
   def self.es_feliz_como_su_amigo?
     @amigo.felicidad > 105
   end
