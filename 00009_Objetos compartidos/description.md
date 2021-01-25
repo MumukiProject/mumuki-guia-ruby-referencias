@@ -11,6 +11,7 @@ module Fito
   end
 end
 ```
+
 > Escribí un programa que inicialice al `amigo` de `Fito` y al `nieto` de `AbueloGervasio` de forma que ambos conozcan al mismo objeto (`Juli`). 
 > 
 > Luego, hacé que el **abuelo** alimente a su nieto 3 veces. ¿Qué pasará con `Fito`? ¿Se pondrá feliz?
