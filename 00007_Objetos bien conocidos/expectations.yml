@@ -2,4 +2,4 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: AbuelaClotilde
-  inspection: Declares:alimentar_nieto
+  inspection: Declares:alimentar_nieto!
