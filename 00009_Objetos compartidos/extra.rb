@@ -30,7 +30,7 @@ module AbueloGervasio
   @nieto
   @veces_alimentado = 0
   
-  def self.alimentar_nieto
+  def self.alimentar_nieto!
     @veces_alimentado += 1
     @nieto.comer(2000)
     @nieto.comer(1000)

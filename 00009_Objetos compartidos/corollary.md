@@ -6,7 +6,7 @@ AbueloGervasio.nieto = Juli
 
 #Si antes de alimentar al nieto preguntáramos Fito.es_feliz_como_su_amigo?, respondería false
 
-3.times { AbueloGervasio.alimentar_nieto }
+3.times { AbueloGervasio.alimentar_nieto! }
 ```
 
 ...`Juli` es un **objeto compartido**: tanto el abuelo como su amigo lo conocen. La consecuencia de esto es que cuando su abuelo le da de comer le aumenta la felicidad, y su amigo ve los cambios: éste método que antes devolvía `false`, ahora devuelve `true`. 
