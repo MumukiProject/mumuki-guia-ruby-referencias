@@ -1,4 +1,4 @@
-describe do 
+describe "pianos" do 
   before do
     Lucio.afinar(PianoFamiliar, 20)
   end
