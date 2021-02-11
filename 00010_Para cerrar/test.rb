@@ -1,5 +1,5 @@
 describe "pianos" do 
-  before do
+  before(:each) do
     Lucio.afinar(PianoFamiliar, 20)
   end
   
