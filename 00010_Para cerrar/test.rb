@@ -1,5 +1,5 @@
 before do
-  Lucio.afinar(PianoFamiliar, 200)
+  Lucio.afinar(PianoFamiliar, 20)
 end
 
 it "El PianoFamiliar está inicialmente afinado" do
