@@ -40,6 +40,7 @@ describe "pianos" do
     Jazmin.piano=(PianoFamiliar)  
     90.times { Jazmin.tocar }
     Lucio.afinar(PianoFamiliar, 20)
+    expect(PianoFamiliar.afinacion).to be true
     expect(PianoFamiliar.esta_afinado?).to be true
   end
   
