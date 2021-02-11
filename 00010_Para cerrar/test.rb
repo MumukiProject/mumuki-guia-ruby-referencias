@@ -38,6 +38,8 @@ describe "pianos" do
   
   it "Después de tocar el piano 90 veces, y afinarlo durante 20 horas, está afinado" do
     Jazmin.piano=(PianoFamiliar)  
+    expect(PianoFamiliar.afinacion).to eq 100
+
     90.times { Jazmin.tocar }
     Lucio.afinar(PianoFamiliar, 20)
     expect(PianoFamiliar.afinacion).to be true
