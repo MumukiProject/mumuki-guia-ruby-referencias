@@ -1,4 +1,4 @@
-Antes de terminar nos topamos con un último problema: `Jor` se encarga de la cocina en un restaurante y le encanta `picantear!` su plato del día. Sin embargo, `Luchi`, su ayudante, no comparte ese gusto y por suerte está ahí para `suavizar!` las distintas comidas del establecimiento. 
+Antes de terminar nos topamos con un último problema: `Jor` se encarga de la cocina en un restaurante de pastas y le encanta `picantear!` su plato del día. Sin embargo, `Luchi`, su ayudante, no comparte ese gusto y por suerte está ahí para `suavizar!` las distintas comidas del establecimiento. 
 
 * Cada vez que `Jor` picantea el plato del día le agrega 5 ajíes.
 * ¡Hoy hay `Fideos`! :drooling_face: Decimos que los `Fideos` están picantes si el plato tiene más de 2 ajíes. Inicialmente no tiene ajíes.
