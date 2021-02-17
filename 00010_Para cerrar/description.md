@@ -13,7 +13,7 @@ Antes de terminar nos topamos con un último problema: `Jor` se encarga de la co
 > #Que Jor le agregue picante
 > Jor.picantear!
 > #Preguntar si está picante
-> Fideos.picante?
+> Fideos.picantes?
 > #Que Luchi suavice el plato que reciba como argumento
 > Luchi.suavizar! Fideos, 3
 > #Descartar la salsa
