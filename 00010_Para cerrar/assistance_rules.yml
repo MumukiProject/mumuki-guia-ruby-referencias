@@ -8,7 +8,7 @@ rules:
   then: recordá que los `Fideos` están picante si tiene más de dos ajíes
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-    only_these_tests_failed:
+    these_tests_failed:
     - Los Fideos están picantes cuando Luchi los suaviza quitándoles 2 ajíes después
       de que Jor los picanteó 2 veces
   then: "`Luchi` solo descarta la salsa si tiene más de 10 ajíes"
