@@ -12,3 +12,19 @@ rules:
     - Los Fideos están picantes cuando Luchi los suaviza quitándoles 2 ajíes después
       de que Jor los picanteó 2 veces
   then: "`Luchi` solo descarta la salsa si tiene más de 10 ajíes"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - Jor DeclaresComputationWithArity0:picantear!
+  then: "`Jor` siempre agrega 5 ajíes a su plato del día cuando picantea, no recibe
+    los valores como argumento"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - Luchi DeclaresComputationWithArity2:suavizar!
+  then: "`Luchi` necesita saber que comida suavizar y cuántos ajíes sacarle"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - Luchi Calls:descartar_la_salsa!
+  then: recordá que `Luchi` es quien se encarga de descartar la salsa
