@@ -16,21 +16,21 @@ it "Cuando Jor picantea su plato pasa a estar picante" do
   expect(Fideos.picantes?).to be true
 end
 
-it "Los Fideos están picantes cuando Luchi los suaviza quitándole 2 ajíes después que Jor los picanteó" do
+it "Los Fideos están picantes cuando Luchi los suaviza quitándole 2 ajíes después de que Jor los picanteó" do
   Jor.plato_del_dia = Fideos
   Jor.picantear!
   Luchi.suavizar! Fideos, 2
   expect(Fideos.picantes?).to be true
 end
 
-it "Los Fideos dejan de estar picantes cuando Luchi los suaviza quitándoles 3 ajíes después que Jor los picanteó" do
+it "Los Fideos dejan de estar picantes cuando Luchi los suaviza quitándoles 3 ajíes después de que Jor los picanteó" do
   Jor.plato_del_dia = Fideos
   Jor.picantear!
   Luchi.suavizar! Fideos, 3
   expect(Fideos.picantes?).to be false
 end
 
-it "Los Fideos están picantes cuando Luchi los suaviza quitándoles 2 ajíes después que Jor los picanteó 2 veces" do
+it "Los Fideos están picantes cuando Luchi los suaviza quitándoles 2 ajíes después de que Jor los picanteó 2 veces" do
   Jor.plato_del_dia = Fideos
   Jor.picantear!
   Jor.picantear!
@@ -38,7 +38,7 @@ it "Los Fideos están picantes cuando Luchi los suaviza quitándoles 2 ajíes de
   expect(Fideos.picantes?).to be true
 end
 
-it "Los Fideos no están picantes cuando Luchi los suaviza quitándoles 4 ajíes después que Jor los picanteó 3 veces porque se descarta la salsa" do
+it "Los Fideos no están picantes cuando Luchi los suaviza quitándoles 4 ajíes después de que Jor los picanteó 3 veces porque se descarta la salsa" do
   Jor.plato_del_dia = Fideos
   Jor.picantear!
   Jor.picantear!
