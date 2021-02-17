@@ -35,7 +35,7 @@ it "Los Fideos están picantes cuando Luchi los suaviza quitándoles 2 ajíes de
   Jor.picantear!
   Jor.picantear!
   Luchi.suavizar! Fideos, 2
-  expect(Fideos.picantes?).to be true, "Fideos.picantes? debería ser true, pero fue false"
+  expect(Fideos.picantes?).to be(true), "Fideos.picantes? debería ser true, pero fue false"
 end
 
 it "Los Fideos no están picantes cuando Luchi los suaviza quitándoles 4 ajíes después de que Jor los picanteó 3 veces porque se descarta la salsa" do
