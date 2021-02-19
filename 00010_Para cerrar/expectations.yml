@@ -16,5 +16,5 @@ expectations:
   binding: Luchi
   inspection: DeclaresComputationWithArity2:suavizar!
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Luchi
+  binding: Intransitive:Luchi
   inspection: Calls:descartar_la_salsa!
