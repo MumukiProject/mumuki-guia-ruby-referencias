@@ -2,8 +2,6 @@
 
 ```ruby
 module Fito
-  @amigo
-  
   def self.amigo=(un_amigo)
     @amigo = un_amigo
   end
