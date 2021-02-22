@@ -6,7 +6,7 @@ module Pepita
   end
    
   def self.ciudad=(una_ciudad)
-      @ciudad = una_ciudad
+    @ciudad = una_ciudad
   end
 end
 
