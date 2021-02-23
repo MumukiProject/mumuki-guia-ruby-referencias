@@ -3,7 +3,7 @@ before do
 end
 
 it "Inicialmente Jor no tiene un plato del dia" do
-  expect { Jor.salar! }.to raise_error
+  expect { Jor.picantear! }.to raise_error
 end
 
 it "Los Fideos inicialmente no están picantes" do
