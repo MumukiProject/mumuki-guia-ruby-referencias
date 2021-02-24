@@ -2,15 +2,16 @@
 rules:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-    only_these_tests_failed:
-    - Los Fideos dejan de estar picantes cuando Luchi los suaviza quitándoles 3 ajíes
-      después de que Jor los picanteó
-  then: recordá que los `Fideos` están picante si tiene más de dos ajíes
+    these_tests_failed:
+    - Si Jor picantea su plato y Luchi luego suaviza en 3 ajíes, los Fideos no quedan
+      picantes
+  then: recordá que los `Fideos` están picantes si tiene más de dos ajíes
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     only_these_tests_failed:
-    - Los Fideos están picantes cuando Luchi los suaviza quitándoles 2 ajíes después
-      de que Jor los picanteó 2 veces
+    - Luchi no descarta la salsa cuando tiene 10 ajíes
+    - Si Jor picantea su plato dos veces y Luchi luego suaviza en 1 ají, los Fideos
+      quedan picantes
   then: "`Luchi` solo descarta la salsa si tiene más de 10 ajíes"
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
