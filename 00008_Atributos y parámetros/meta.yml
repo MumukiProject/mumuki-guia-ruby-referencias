@@ -1,7 +1,7 @@
 ---
 locale: es
 tags: []
-layout: input_right
+layout: input_bottom
 editor: code
 type: problem
 extra_visible: true
