@@ -22,7 +22,7 @@ saludo.upcase.size
              +-- Y acá, otra referencia implícita a "HOLA"
 ```
 
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-referencias/master/images/referenciaImplicita_1515158174087.png" alt="Referencia Implícita" width="350" height="auto">
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-referencias/master/assets/objetos_4_1616780414430.3.svg" alt="Referencia implícita" width="300" height="auto">
 
 Por eso, si luego te interesa hacer más cosas con ese objeto, tenés que crear una referencia explícita al mismo :wink:. Las referencias explícitas son las que vimos hasta ahora. Por ejemplo:
 
