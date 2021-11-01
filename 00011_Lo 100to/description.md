@@ -1,7 +1,7 @@
 Miremos este método con más detenimiento: 
 
 ```ruby
-def volar_en_circulos!
+def self.volar_en_circulos!
    @energia = @energia - 10
 end
 ```
