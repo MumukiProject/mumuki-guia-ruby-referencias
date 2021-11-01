@@ -22,7 +22,7 @@ Luego, la operación de asignación cambia ese apuntador, que pasa a referenciar
 module Pepita
   @energia = 100
 >
-  def volar_en_circulos!
+  def self.volar_en_circulos!
     @energia -= 10
   end
 >
