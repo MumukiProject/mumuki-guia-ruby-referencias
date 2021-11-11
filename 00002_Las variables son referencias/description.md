@@ -8,7 +8,7 @@ saludo = "hola"
 
 ...lo que estamos haciendo es _crear una referencia_ `saludo` que _apunta_ al objeto `"hola"`, que representamos mediante una flechita:
 
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-referencias/master/assets/objetos_4_1616780231623.2.svg" alt="Una referencia" width="300" height="auto">
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-referencias/master/assets/objetos_4_1616780231623.2.svg" alt="Diagrama de objetos con el objeto 'hola' y una referencia saludo al mismo" width="300" height="auto">
 
 Y cuando tenemos... 
 
