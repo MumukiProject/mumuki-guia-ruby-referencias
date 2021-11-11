@@ -23,7 +23,7 @@ En ambos casos el resultado fue `false`, dado que aquellos strings son objetos *
 
 ¿Por qué? ¡Simple! Ambas referencias, `otro_saludo` y `despedida`, apuntan al mismo objeto. La moraleja es que declarar una variable significa agregar una nueva referencia al objeto existente, en lugar de copiarlo:
 
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-referencias/master/assets/objetos_4_1616780762290.5.svg" alt="Diagrama de objetos con dos obejtos. El objeto 'hola' y una referencia saludo al mismo y el objeto 'buen día' con las referencias despedida y otro_saludo" width="300" height="auto">
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-referencias/master/assets/objetos_4_1616780762290.5.svg" alt="Diagrama de objetos con dos objetos. El objeto 'hola' y una referencia saludo al mismo y el objeto 'buen día' con las referencias despedida y otro_saludo" width="300" height="auto">
 
 Distinto sería si hacemos:
 
