@@ -10,11 +10,11 @@ Lo que estamos haciendo es cambiar la energía de `Pepita`: pasa de su valor act
 
 No, en absoluto. `@energia` es una referencia a un objeto, que inicialmente _apunta_  al objeto `100`:
 
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-referencias/master/assets/objetos_4_1616781381589.8.svg" alt="Múltiples referencias" width="300" height="auto">
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-referencias/master/assets/objetos_4_1616781381589.8.svg" alt="Diagrama de objetos con dos objetos con referencias globales, Pepita e Iruya. El objeto Pepita apunta a un objeto 100 con la referencia @energia y al objeto que apunta Iruya con la referencia @ciudad" width="300" height="auto">
 
 Luego, la operación de asignación cambia ese apuntador, que pasa a referenciar al `90`:
 
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-referencias/master/assets/objetos_4_1616781410661.9.svg" alt="Múltiples referencias" width="300" height="auto">
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-referencias/master/assets/objetos_4_1616781410661.9.svg" alt="Diagrama de objetos con dos objetos con referencias globales, Pepita e Iruya. El objeto Pepita apunta a un objeto 90 con la referencia @energia y al objeto que apunta Iruya con la referencia @ciudad. El objeto 100 no tiene referencias" width="300" height="auto">
 
 > Dada las siguientes definiciones:
 >
