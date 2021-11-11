@@ -19,3 +19,33 @@
     </div>
   </div>
 </div>
+
+
+<script>
+  function setSolutionValue(imageIndex) {
+    let value = {'option_image': imageIndex.toString()}
+    $('#solution_content').attr('value', JSON.stringify(value));
+  }
+  
+  function selectImage(imageIndex) {
+    $(`#radio_${imageIndex}`).prop("checked", true);
+    setSolutionValue(imageIndex);
+    $('.mu-free-form-input').change(() => setSolutionValue(imageIndex));
+  }
+  
+  function loadPreviousSolution() {
+    let previousValue = $('#solution_content').val();
+    if(previousValue) {
+      let currentIndex = JSON.parse(previousValue).malware_image;
+      selectImage(Number.parseInt(currentIndex))
+    }
+  }
+  
+  loadPreviousSolution();
+</script>
+
+<style>
+  .w-90 {
+    width: 90%;
+  }
+</style>
