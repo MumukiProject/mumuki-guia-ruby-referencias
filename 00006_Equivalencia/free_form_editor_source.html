@@ -1,92 +1,21 @@
-<div class="options-container">
-  <div class="row-flex">
-      <div class="imgblock">
-        <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-prueba-mejoras-de-objetos/master/assets/Screen%20Shot%202021-01-22%20at%2016_1611345557635.57.38.png" onclick="selectImage(1)"/>
-      </div>
-      <div class="imgblock">
-        <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-prueba-mejoras-de-objetos/master/assets/Screen%20Shot%202021-01-22%20at%2016_1611345545277.57.24.png" onclick="selectImage(2)"/>
-      </div>
-      <div class="imgblock">
-        <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-prueba-mejoras-de-objetos/master/assets/Screen%20Shot%202021-01-22%20at%2016_1611345534410.57.03.png" alt="Screen Shot 2021-01-22 at 16_1611345557635.57.38.png" onclick="selectImage(3)"/>
-      </div>
-  </div>
-  <div class="row-flex">
-      <div class="imgblock field radio complementary complementary-radio">
-        <input class="form-control mu-free-form-input" type="radio" name="option_image" id="radio_1" value="1" onclick="selectImage(1)"/>
-        <label for="radio_1"></label>
-      </div>
-      <div class="imgblock field radio complementary complementary-radio">
-        <input class="form-control mu-free-form-input" type="radio" name="option_image" id="radio_2" value="2" onclick="selectImage(2)"/>
-        <label for="radio_2"></label>
-      </div>
-      <div class="imgblock field radio complementary complementary-radio">
-        <input class="form-control mu-free-form-input" type="radio" name="option_image" id="radio_3" value="3" onclick="selectImage(3)"/>
-        <label for="radio_3"></label>
-      </div>
+<div class="board-example-container">
+  <div class="d-flex align-items-center flex-wrap">
+    <div class="col-md-4 d-flex flex-column align-items-center">
+      <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-prueba-mejoras-de-objetos/master/assets/Screen%20Shot%202021-01-22%20at%2016_1611345557635.57.38.png"  class="pointer w-90" onclick="selectImage(1)"/>
+      <input class="form-check-input m-1 mu-free-form-input" type="radio" name="malware_image" id="radio_1" value="1" onclick="selectImage(1)"/>
+      <label for="radio_1"></label>
+    </div>
+
+    <div class="col-md-4 d-flex flex-column align-items-center">
+      <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-prueba-mejoras-de-objetos/master/assets/Screen%20Shot%202021-01-22%20at%2016_1611345545277.57.24.png"  class="pointer w-90" onclick="selectImage(2)"/>
+      <input class="form-check-input m-1 mu-free-form-input" type="radio" name="malware_image" id="radio_2" value="2" onclick="selectImage(2)"/>
+      <label for="radio_2"></label>
+    </div>
+
+    <div class="col-md-4 d-flex flex-column align-items-center">
+      <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-prueba-mejoras-de-objetos/master/assets/Screen%20Shot%202021-01-22%20at%2016_1611345534410.57.03.png" class="pointer w-90" onclick="selectImage(3)"/>
+      <input class="form-check-input m-1 mu-free-form-input" type="radio" name="malware_image" id="radio_3" value="3" onclick="selectImage(3)"/>
+      <label for="radio_3"></label>
+    </div>
   </div>
 </div>
-
-<script>
-  function setSolutionValue(imageIndex) {
-    let value = {'malware_image': imageIndex.toString()}
-    $('#solution_content').attr('value', JSON.stringify(value));
-  }
-  
-  function selectImage(imageIndex) {
-    $(`#radio_${imageIndex}`).prop("checked", true);
-    setSolutionValue(imageIndex);
-    $('.mu-free-form-input').change(() => setSolutionValue(imageIndex));
-  }
-  
-  function loadPreviousSolution() {
-    let previousValue = $('#solution_content').val();
-    if(previousValue) {
-      let currentIndex = JSON.parse(previousValue).malware_image;
-      selectImage(Number.parseInt(currentIndex))
-    }
-  }
-  
-  loadPreviousSolution();
-</script>
-
-<style>
-  .row-flex {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .options-container {
-    display: block;
-    width: 100%;
-  }
-  .imgblock {
-    flex: 1;
-    float: left;
-    margin: 8px;
-    box-sizing: border-box;
-    vertical-align: middle;
-  }
-  .imgblock img {
-      margin: 5px;
-      width: 100%; 
-      height: auto;
-      vertical-align: middle;
-      cursor: pointer;
-      border: 1px solid #cfd9db;
-      border-radius: 4px; 
-  }
-  input[type="radio"]{
-    margin: 4px 0 0;
-    line-height: normal;
-    border: 0px;
-    width: 100%;
-    height: 1em;
-    background-color: #FF5B81;
-    color: white;
-  }
-  label[for*='radio'] {
-    position: absolute;
-    left: 50%;
-    top: -15px;
-  }
-</style>
