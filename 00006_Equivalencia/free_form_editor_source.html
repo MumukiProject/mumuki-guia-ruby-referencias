@@ -36,7 +36,7 @@
   function loadPreviousSolution() {
     let previousValue = $('#solution_content').val();
     if(previousValue) {
-      let currentIndex = JSON.parse(previousValue).malware_image;
+      let currentIndex = JSON.parse(previousValue).option_image;
       selectImage(Number.parseInt(currentIndex))
     }
   }
