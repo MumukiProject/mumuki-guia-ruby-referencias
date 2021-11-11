@@ -18,6 +18,6 @@ A objetos como `Fito` se los conocen como _objetos bien conocidos_: cuando los d
 
 ¡Adiviná! Esas etiquetas también son referencias :tada:. Y son globales, es decir que cualquier objeto o **programa** puede utilizarla.
 
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-referencias/master/assets/objetos_4_1616781024782.7.svg" alt="Referencia global y atributo" width="300" height="auto">
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-referencias/master/assets/objetos_4_1616781024782.7.svg" alt="Diagrama de objetos con un objeto que tiene una referencia global 'Fito'. Ese objeto apunta a un objeto cien con la referencia @felicidad" width="300" height="auto">
 
 > Veamos si va quedando claro. Definí un objeto `AbuelaClotilde` que entienda un mensaje `alimentar_nieto!`, que haga `comer!` 2 veces a `Fito`: primero con 2000 calorias, y luego con 1000 calorías; ¡el postre no podía faltar! :cake:.  
