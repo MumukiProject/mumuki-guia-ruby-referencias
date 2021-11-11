@@ -13,4 +13,4 @@ AbueloGervasio.nieto = Juli
 
 Y esto tiene sentido: si un objeto _muta_ su estado, y lo expone de una u otra forma a través de mensajes, todos los que lo observen podrán ver el cambio. :blush: 
 
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-referencias/master/assets/objetos_4_1616781542178.10.svg" alt="objetos_4_1616781542178.10.svg" width="550" height="auto">
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-referencias/master/assets/objetos_4_1616781542178.10.svg" alt="Diagrama de objetos con tres objetos con referencias globales, Fito, Juli y AbueloGervasio. El objeto Fito apunta al objeto que apunta Juli con la referencia @amigo. El objeto AbueloGervasio apunta al objeto que apunta Juli con la referencia @nieto." width="550" height="auto">
