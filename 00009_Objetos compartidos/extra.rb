@@ -1,7 +1,7 @@
 module Juli
   @felicidad = 100
   
-  def self.comer(calorias)
+  def self.comer!(calorias)
     @felicidad += calorias * 0.5
   end
   
@@ -47,7 +47,7 @@ module AbueloGervasio
     #<elipsis-for-student@
     @veces_alimentado += 1
     #@elipsis-for-student>
-    @nieto.comer(2000)
-    @nieto.comer(1000)
+    @nieto.comer!(2000)
+    @nieto.comer!(1000)
   end
 end
