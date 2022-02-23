@@ -18,3 +18,9 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Intransitive:Luchi
   inspection: Calls:descartar_la_salsa!
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: suavizar!
+  inspection: Not:Uses:Fideos
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: picantear!
+  inspection: Not:Uses:Fideos
