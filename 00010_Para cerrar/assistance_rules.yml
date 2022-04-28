@@ -33,9 +33,11 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_expectations_failed:
     - suavizar! Not:Uses:Fideos
-  then: "`Luchi` tiene que `suavizar!` el plato que reciba como argumento"
+  then: "`Luchi` tiene que `suavizar!` el plato que reciba como argumento el cual
+    no necesariamente será `Fideos`"
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_expectations_failed:
     - picantear! Not:Uses:Fideos
-  then: "`Jor` tiene que suavizar su `plato_del_dia`"
+  then: "`Jor` tiene que suavizar su `plato_del_dia` el cual no necesariamente será
+    `Fideos`"
