@@ -3,7 +3,7 @@ Antes de terminar nos topamos con un último problema: `Jor` se encarga de la co
 * Cada vez que `Jor` picantea el plato del día le agrega 5 ajíes.
 * ¡Hoy hay `Fideos`! :drooling_face: Decimos que los `Fideos` están picantes si el plato tiene más de 2 ajíes. Inicialmente no tiene ajíes.
 * Cuando descartamos la salsa de los `Fideos` dejan de tener ajíes. 
-* `Luchi` necesita saber qué plato suavizar y cuántos ajíes sacarle para hacerlo. Si el plato tiene más de 10 ajíes, directamente descarta la salsa para poder usarla en otra comida. 
+* `Luchi` necesita saber qué plato suavizar y cuántos ajíes sacarle para hacerlo (¡y siempre sabe la cantidad exacta por lo que nunca hará que queden ajíes negativos en el plato!). Si el plato tiene más de 10 ajíes, directamente descarta la salsa para poder usarla en otra comida. 
 
 > Definí los objetos necesarios para que podamos hacer lo siguiente: 
 > 
